@@ -1,0 +1,18 @@
+# Core pipeline (versions match the executed Colab T4 run)
+ultralytics==8.4.75      # YOLOv8 training, validation, export
+torch>=2.11.0            # backend for ultralytics (CUDA build on Colab)
+opencv-python>=4.9.0     # image I/O, letterbox, Gaussian blur
+numpy>=1.26
+pandas>=2.0              # box dataframe + data audit
+matplotlib>=3.8          # EDA plots and result figures
+PyYAML>=6.0              # writes data.yaml for the trainer
+
+# Notebook runtime
+jupyterlab>=4.0
+ipython>=8.0
+
+# Data fetch helper (Colab/Drive)
+gdown>=5.0
+
+# Optional: proves blurred text is unreadable (section 11, off by default)
+# easyocr>=1.7

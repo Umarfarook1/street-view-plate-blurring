@@ -1,0 +1,39 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Notebooks
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Datasets and model artifacts (see README "How to run")
+data/
+datasets/
+*.zip
+*.cache
+runs/
+runs_lp/
+*.pt
+*.onnx
+*.engine
+yolov8*.pt
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Secrets / credentials
+*.env
+.env
+*.key
+credentials.json
