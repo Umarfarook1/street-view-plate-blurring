@@ -9,6 +9,8 @@
 ![mAP@0.5](https://img.shields.io/badge/mAP%400.5-0.78-success)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
+**[Read the notebook rendered in nbviewer](https://nbviewer.org/github/Umarfarook1/street-view-plate-blurring/blob/main/notebook.ipynb)** — no clone needed.
+
 ## The result first
 
 ![Detected plates blurred in place: a show-car sedan, a NYC taxi, a Hummer and a Mercedes van. The plate region is destroyed by a box-scaled Gaussian blur while everything else - paint, wheels, background traffic - stays sharp.](assets/plot_40_9.png)
