@@ -14,5 +14,7 @@ ipython>=8.0
 # Data fetch helper (Colab/Drive)
 gdown>=5.0
 
-# Optional: proves blurred text is unreadable (section 11, off by default)
+# Optional: reads a plate crop before and after blurring, so you can measure what
+# survives redaction rather than eyeball it. Needed by audit/redaction_audit.py and
+# by notebook section 11 (RUN_OCR_CHECK, off in the committed run).
 # easyocr>=1.7

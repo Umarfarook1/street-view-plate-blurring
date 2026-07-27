@@ -1,0 +1,53 @@
+figure      : assets/plot_40_9.png  1308x2129
+easyocr     : 1.7.2   torch: 2.13.0+cpu
+
+=== sedan ===
+  panels      : original x11-646, redacted x663-1298, rows y31-453
+  changed >0  :    5796 px  ( 2.163% of panel)
+  changed >8  :    4591 px  ( 1.713% of panel)
+  changed >24 :    2662 px  ( 0.993% of panel)
+  regions     : (x1,x2,y1,y2,px) in panel coords
+                (129, 214, 150, 217, 5796)
+  OCR panel original: [('Hoiors', 0.175), ('C63,', 0.566), ('HiisUbrsh (', 0.007), ('AMG |', 0.167), ('MtatEfEaain', 0.002)]
+  OCR panel redacted: [('Hoiors', 0.175), ('HiisUbrsh (', 0.007)]
+  OCR crop  original: 1x=[('(C63', 0.279), (' AMG |', 0.231), ('Marh Eaten', 0.003)]  2x=[('C63 ,_', 0.69), ('AMG', 0.995), ('4n"erdsch E', 0.048), ('Edition', 0.241)]  4x=[('C63', 0.999), ('AMG', 0.989), ('AWa"ardsche', 0.045), ('Edition', 0.493)]  8x=[('C63', 0.998), ('AMG', 0.982), ('Anntdjehl', 0.003), ('Edition', 0.37)]
+  OCR crop  redacted: 1x=[]  2x=[]  4x=[]  8x=[]
+
+=== taxi ===
+  panels      : original x11-646, redacted x663-1298, rows y553-1028
+  changed >0  :    3303 px  ( 1.095% of panel)
+  changed >8  :    2242 px  ( 0.743% of panel)
+  changed >24 :     508 px  ( 0.168% of panel)
+  regions     : (x1,x2,y1,y2,px) in panel coords
+                (1, 32, 187, 211, 797)
+                (202, 250, 235, 286, 2506)
+  OCR panel original: [('Tam FaRE ', 0.095), ('HG ZUT', 0.006), ('oaat', 0.002)]
+  OCR panel redacted: [('HG ZUT', 0.006), ('oaat', 0.002)]
+  OCR crop  original: 1x=[('Tam farE |', 0.087)]  2x=[('TaxI FarE |', 0.094)]  4x=[('6', 0.028), ('TaxI FARE |', 0.263)]  8x=[('TFARE [', 0.023), ('B3', 0.035), ('TatI', 0.111)]
+  OCR crop  redacted: 1x=[]  2x=[]  4x=[]  8x=[]
+
+=== hummer ===
+  panels      : original x68-589, redacted x720-1241, rows y1079-1599
+  changed >0  :     102 px  ( 0.038% of panel)
+  changed >8  :      27 px  ( 0.010% of panel)
+  changed >24 :       0 px  ( 0.000% of panel)
+  regions     : (x1,x2,y1,y2,px) in panel coords
+                (28, 43, 203, 209, 102)
+  OCR panel original: [('Ruli', 0.075), ('Maes', 0.001)]
+  OCR panel redacted: [('Ruli', 0.075), ('Maes', 0.001)]
+  OCR crop  original: 1x=[]  2x=[]  4x=[]  8x=[]
+  OCR crop  redacted: 1x=[]  2x=[]  4x=[]  8x=[]
+
+=== van ===
+  panels      : original x11-646, redacted x663-1298, rows y1658-2117
+  changed >0  :   12738 px  ( 4.370% of panel)
+  changed >8  :   10112 px  ( 3.469% of panel)
+  changed >24 :    5418 px  ( 1.859% of panel)
+  regions     : (x1,x2,y1,y2,px) in panel coords
+                (123, 307, 326, 394, 12738)
+  OCR panel original: [('Tl', 0.448), ('SQAP', 0.838)]
+  OCR panel redacted: no text found
+  OCR crop  original: 1x=[('ILSOAP', 0.401)]  2x=[('Ti', 0.325), ('SQAP', 0.662)]  4x=[('TI SOAP', 0.679)]  8x=[('Tl', 0.345), ('SOAP', 0.947)]
+  OCR crop  redacted: 1x=[]  2x=[]  4x=[]  8x=[('0', 0.098), ('6', 0.035)]
+
+wrote assets/redaction_closeup.png  (van plate, original left, redacted right, 4x)
